@@ -1,0 +1,155 @@
+/**
+ * Basic styling
+ */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+
+body {
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	font-weight: 300;
+	color: $text-color;
+	background-color: $background-color;
+	-webkit-text-size-adjust: 100%;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure, hr, table,
+%vertical-rhythm {
+	margin-bottom: $spacing-unit / 2;
+}
+
+/**
+ * Text styles
+ */
+strong {
+	font-weight: 400;
+}
+
+
+/**
+ * Images
+ */
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+
+/**
+ * Figures
+ */
+figure > img {
+	display: block;
+}
+
+figcaption {
+	font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+	margin-left: $spacing-unit;
+}
+
+li {
+	> ul,
+	> ol {
+		 margin-bottom: 0;
+	}
+}
+
+/**
+ * Tables
+ */
+
+table {
+	width: 100%;
+}
+
+th {
+	font-weight: 400;
+}
+
+th.align-left {
+	text-align: left;
+}
+
+td.align-center {
+	text-align: center;
+}
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: 300;
+}
+
+
+/**
+ * Links
+ */
+a {
+	color: $brand-color;
+	text-decoration: none;
+	transition: color 0.2s ease 0s;
+
+	&:visited {
+	}
+
+	&:hover {
+		color: $text-color;
+	}
+}
+/*
+a.external {
+	//background-image: url(/assets/external-link-ltr-icon.png);
+	background-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%3E%3Cpath%20fill%3D%22%23fff%22%20stroke%3D%22%23cb2020%22%20d%3D%22M1.5%204.518h5.982V10.5H1.5z%22%2F%3E%3Cpath%20d%3D%22M5.765%201H11v5.39L9.427%207.937l-1.31-1.31L5.393%209.35l-2.69-2.688%202.81-2.808L4.2%202.544z%22%20fill%3D%22%23cb2020%22%2F%3E%3Cpath%20d%3D%22M9.995%202.004l.022%204.885L8.2%205.07%205.32%207.95%204.09%206.723l2.882-2.88-1.85-1.852z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E);
+	background-repeat: no-repeat;
+	background-position: center right;
+	padding-right: 16px;
+}
+.external2 {
+	// to replace colour search for cb2020
+	//background-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2c22%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%3E%3Cpath%20fill%3D%22%23fff%22%20stroke%3D%22%23c22%22%20d%3D%22M1.5%204.518h5.982V10.5H1.5z%22%2F%3E%3Cpath%20d%3D%22M5.765%201H11v5.39L9.427%207.937l-1.31-1.31L5.393%209.35l-2.69-2.688%202.81-2.808L4.2%202.544z%22%20fill%3D%22%23000%22%2F%3E%3Cpath%20d%3D%22M9.995%202.004l.022%204.885L8.2%205.07%205.32%207.95%204.09%206.723l2.882-2.88-1.85-1.852z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E);
+	
+	//background-image: url('data:image/svg+xml,<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path fill="#fff" stroke="#06c" d="M1.5 4.518h5.982V10.5H1.5z"/><path d="M5.765 1H11v5.39L9.427 7.937l-1.31-1.31L5.393 9.35l-2.69-2.688 2.81-2.808L4.2 2.544z" fill="#06f"/><path d="M9.995 2.004l.022 4.885L8.2 5.07 5.32 7.95 4.09 6.723l2.882-2.88-1.85-1.852z" fill="#fff"/></svg>');
+	background-repeat: no-repeat;
+	background-position: center right;
+	padding-right: 13px;
+}
+*/
+a.external:after {
+	font-family: FontAwesome;
+	content: "\f08e";
+	padding: 0 5px;
+	font-size: 13px;
+}
+/* Utility */
+
+.wrapper:before,
+.wrapper:after { content:""; display:table; }
+.wrapper:after { clear: both; }
+.wrapper {
+	max-width: 800px;
+	max-width: 72rem;
+	padding: 0 30px;
+	margin: 0 auto;
+	zoom: 1;
+}

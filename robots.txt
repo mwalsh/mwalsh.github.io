@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /recipes/
+Disallow: /resume/
+Disallow: /mafia-de-cuba/

@@ -1,0 +1,23 @@
+# Site settings
+title: Mike Walsh
+email: mike@mwalsh.ca
+description: "I do web development and things."
+baseurl: ""
+url: "http://mwalsh.ca"
+css_version: "20170920a"
+twitter_username: inspirationdate
+github_username:  mwalsh
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:path/
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+sass:
+  style: compressed
+#  style: nested
+
+#exclude: [deploy]
+#plugins: [jekyll-admin]
