@@ -1,0 +1,33 @@
+
+{% assign grab_next_item = false %}
+
+{% for item in site.data.work %}
+	{% if grab_next_item == true %}
+		{% assign grab_next_item = false %}
+		{% assign next_url = item.url %}
+		{% assign next_title = item.title %}
+	{% endif %}
+	{% if item.url == page.url %}
+		{% assign prev_url = last_item.url %}
+		{% assign prev_title = last_item.title %}
+		{% assign grab_next_item = true %}
+	{% endif %}
+	{% assign last_item = item %}
+{% endfor %}
+
+{% comment %}
+{{ page.url }}
+{{ prev_url }}
+{{ next_url }}
+{% endcomment %}
+
+<nav class="work">
+	<div class="wrapper">
+		{% if prev_url %}
+			<a class="button prev" href="{{ prev_url }}" aria-label="Previous page: {{ prev_title }}"><i class="fa fa-arrow-circle-left fa-3x" aria-hidden="true"></i></a>
+		{% endif %}
+		{% if next_url %}
+			<a class="button next" href="{{ next_url }}" aria-label="Next page: {{ next_title }}"><i class="fa fa-arrow-circle-right fa-3x" aria-hidden="true"></i></a>
+		{% endif %}
+	</div>
+</nav>
