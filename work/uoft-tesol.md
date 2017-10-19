@@ -2,8 +2,8 @@
 layout: page-work
 title:  "U of T TESOL"
 images: [
-	"/assets/work/2013/11/15.jpg",
-	"/assets/work/2013/11/26.jpg"
+	"/assets/work/tesol-01.jpg",
+	"/assets/work/tesol-02.jpg"
 ]
 ---
 

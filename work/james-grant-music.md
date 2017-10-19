@@ -2,7 +2,7 @@
 layout: page-work
 title:  "James Grant Music"
 images: [
-	"/assets/work/2013/11/The-Songs-Without-Words-Project-James-Grant-Music-2014-04-04-09-49-43.png"
+	"/assets/work/jgm-01.png"
 ]
 ---
 

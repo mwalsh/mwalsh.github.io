@@ -2,10 +2,10 @@
 layout: page-work
 title:  "International English Programs"
 images: [
-	"/assets/work/2013/11/iep_youth.png",
-	"/assets/work/2013/11/iep_adult.png",
-	"/assets/work/2013/11/iep_youth_toefl.png",
-	"/assets/work/2013/11/iep_adult_toronto.png"
+	"/assets/work/iep-01.png",
+	"/assets/work/iep-02.png",
+	"/assets/work/iep-03.png",
+	"/assets/work/iep-04.png"
 ]
 ---
 

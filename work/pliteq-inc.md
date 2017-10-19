@@ -2,10 +2,10 @@
 layout: page-work
 title:  "Pliteq Inc."
 images: [
-	"/assets/work/2013/11/110.jpg",
-	"/assets/work/2013/11/211.jpg",
-	"/assets/work/2013/11/36.jpg",
-	"/assets/work/2013/11/45.jpg"
+	"/assets/work/pliteq-01.jpg",
+	"/assets/work/pliteq-02.jpg",
+	"/assets/work/pliteq-03.jpg",
+	"/assets/work/pliteq-04.jpg"
 ]
 #<blockquote>Pliteq’s sleek and industrial website is reflective of its innovative products</blockquote>
 ---

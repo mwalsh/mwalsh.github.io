@@ -2,12 +2,12 @@
 layout: page-work
 title:  "Youth Summer Programs"
 images: [
-	"/assets/work/2013/11/19.jpg",
-	"/assets/work/2013/11/210.jpg",
-	"/assets/work/2013/11/35.jpg",
-	"/assets/work/2013/11/44.jpg",
-	"/assets/work/2013/11/51.jpg",
-	"/assets/work/2013/11/6.jpg"
+	"/assets/work/ysp-01.jpg",
+	"/assets/work/ysp-02.jpg",
+	"/assets/work/ysp-03.jpg",
+	"/assets/work/ysp-04.jpg",
+	"/assets/work/ysp-05.jpg",
+	"/assets/work/ysp-06.jpg"
 ]
 ---
 

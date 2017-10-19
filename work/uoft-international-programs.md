@@ -2,8 +2,8 @@
 layout: page-work
 title:  "New College International Programs"
 images: [
-	"/assets/work/2013/11/12.jpg",
-	"/assets/work/2013/11/23.jpg"
+	"/assets/work/ip-01.jpg",
+	"/assets/work/ip-02.jpg"
 ]
 ---
 

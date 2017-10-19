@@ -2,8 +2,8 @@
 layout: page-work
 title:  "Integrity Tours"
 images: [
-	"/assets/work/2013/11/14.jpg",
-	"/assets/work/2013/11/25.jpg"
+	"/assets/work/integrity-tours-01.jpg",
+	"/assets/work/integrity-tours-02.jpg"
 ]
 ---
 

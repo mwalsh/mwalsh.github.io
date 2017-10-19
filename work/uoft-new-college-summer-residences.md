@@ -2,9 +2,9 @@
 layout: page-work
 title:  "New College Summer Residences"
 images: [
-	"/assets/work/2013/11/16.jpg",
-	"/assets/work/2013/11/27.jpg",
-	"/assets/work/2013/11/32.jpg"
+	"/assets/work/nc-summer-residence-01.jpg",
+	"/assets/work/nc-summer-residence-02.jpg",
+	"/assets/work/nc-summer-residence-03.jpg"
 ]
 ---
 

@@ -2,8 +2,8 @@
 layout: page-work
 title:  "UT Prep"
 images: [
-	"/assets/work/2013/11/13.jpg",
-	"/assets/work/2013/11/24.jpg"
+	"/assets/work/ut-prep-01.jpg",
+	"/assets/work/ut-prep-02.jpg"
 ]
 ---
 
